@@ -121,3 +121,11 @@ p{
     border: 1px solid;
     margin: 5px 0;
 }
+
+.choix_croisiere>*{
+    margin: 15px;
+}
+
+.box_morning{
+    display: flex;
+}
