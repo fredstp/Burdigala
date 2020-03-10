@@ -34,6 +34,24 @@ a {
     background-color:#054bc9
 }
 
+.burdigala {
+    background-image: url('../img/burdigala.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.burdigala2 {
+    background-image: url('../img/burdigala2.png');
+}
+
+.titanic2 {
+    background-image: url('../img/titanic2.png');
+}
+
+.aquitania {
+    background-image: url('../img/aquitania.png');
+}
+
 .slider-title {
     font-size:2rem;
     color:#fff;
@@ -191,6 +209,16 @@ a {
     .main {
         display:-webkit-flex;
         display:flex
+    }
+}
+
+@media screen and (max-width: 600px){
+    .page-slider {
+    height: 600px
+    }
+    .slider-p {
+        font-size: 1rem;
+        text-align: center;
     }
 }
 /*# sourceMappingURL=theme.min.css.map */
