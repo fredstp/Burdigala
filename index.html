@@ -5,18 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dist/simpleSlider.min.css">
+    <link rel="stylesheet" href="css-carousel/theme.min.css">
     <title>My Burdigala</title>
 </head>
 <body>
 
     <div class="container-fluid">
-        <div class="container">
-            <section id="carousel">
+        <section id="carousel">
 
+            <!-- Slider -->
+            <div class="simple-slider page-slider">
+                <div class="slider-wrapper">
+                <!-- First slide -->
+                <div class="slider-slide">
+                    <h2 class="slider-title">Burgigala</h2>
+                    <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
+                </div>
 
+                <!-- Second slide -->
+                <div class="slider-slide is-bright">
+                    <h2 class="slider-title">Burdigala II</h2>
+                    <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
+                </div>
+
+                <!-- Third slide -->
+                <div class="slider-slide">
+                    <h2 class="slider-title">Titanic</h2>
+                    <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
+                </div>
+
+                <!-- Fourth slide -->
+                <div class="slider-slide is-bright">
+                    <h2 class="slider-title">Aquitania</h2>
+                    <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
+                </div>
+                </div>
+
+                <!--Pagination (Not required)-->
+                <div class="slider-pagination"></div>
+
+                <!-- Buttons (Not required) -->
+                <div class="slider-btn slider-btn-prev"></div>
+                <div class="slider-btn slider-btn-next"></div> 
+            </div>
+            <!-- /Slider -->
 
             </section>
-        </div>
     </div>
 
     <div class="container">
@@ -75,5 +110,12 @@
             </section>
         </div>
     </div>
+    <script src="dist/simpleSlider.min.js"></script>
+    <script>
+    new SimpleSlider('.page-slider', {
+        autoplay: true,
+        delay: 3000
+    });
+    </script>
 </body>
 </html>

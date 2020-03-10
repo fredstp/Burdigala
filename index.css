@@ -5,6 +5,7 @@ body {
     --headings: #3D9DFF;
     --button: #3D9DFF;
     --button-hover: rgb(61, 200, 255);
+    margin: 0px;
 }
 
 h1 , h2, h3 {
