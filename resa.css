@@ -1,12 +1,53 @@
+html{
+}
+
 body{
     background-color: #E3FDFF;
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    text-align: center;
 }
 
 h1{
     color: #3D9DFF;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h2{
+    color: #3D9DFF;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+h3{
+    color: #3D9DFF;
+    font-size: 1.4rem;
+    font-weight: 700;
 }
 
 p{
     color: #000;
+}
+
+.contact_form{
+    display: flex;
+    justify-content: center;
+}
+
+.align_center{
+    width: 100%;
+}
+
+.align_center input{
+    width: 30%;
+    height: 25px;
+    margin: 5px;
+    padding: 0;
+}
+
+.croisiere{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
 }
