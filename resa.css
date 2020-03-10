@@ -109,15 +109,18 @@ p{
 
 .block_appear{
     display: flex;
-    flex-direction: column;
     align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .choix_croisiere{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
-    width: 70%;
+    width: 49%;
     border: 1px solid;
     margin: 5px 0;
     background-color: white;
@@ -129,8 +132,7 @@ p{
 }
 
 .img_croisiere{
-    height: auto;
-    width: 60%;
+    width: 80%;
 }
 
 .choix_croisiere img{
@@ -141,9 +143,10 @@ p{
 .description{
     display: flex;
     flex-direction: column;
+    align-items: center;
     text-align: center;
     height: 100%;
-    width: 30%;
+    width: 80%;
     margin: auto 5px;
 }
 
@@ -153,7 +156,8 @@ p{
 
 .box{
     display: flex;
-    width: 10%;
+    justify-content: center;
+    width: 100%;
 }
 
 .reservation input{
@@ -163,25 +167,47 @@ p{
 
 /* RESPONSIV */
 
-@media screen and (max-width: 1215px){
+@media screen and (max-width: 600px){
+    .block_appear{
+        flex-direction: column;
+    }
+
+    .choix_croisiere{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .croisiere label{
+        width: 50%;
+    }
+
+    .select_nombre{
+        flex-direction: column;
+    }
+
+    .select_nombre label{
+        width: 100%;
+    }
+
+    .select_nombre select{
+        width: 100%;
+    }
+
+    .calendar{
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+    }
+
+    .calendar input{
+        margin: 0;
+        height: 50%;
+        width: 50%;
+    }
 
     .description{
         justify-content: center;
         align-items: center;
-    }
-
-    .description h2{
-        font-size: 1.8vw;
-    }
-    
-    p{
-        font-size: 1.5vw;
-    }
-}
-
-@media screen and (max-width: 790px){
-    label{
-        font-size: 2.2vw;
     }
 
     .description h2{
@@ -191,15 +217,17 @@ p{
     p{
         display: none;
     }
-}
 
-@media screen and (max-width: 500px){
+    .contact_form{
+        justify-content: center;
+    }
+
     .ID_user{
         display: flex;
         flex-direction: column;
     }
 
     .box{
-        flex-direction: column;
+        width: auto;
     }
 }
