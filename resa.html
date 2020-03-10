@@ -20,28 +20,26 @@
                 </div>
                 <div class="croisiere">
                     <label for="croisiere">Choix de la croisiere:</label>
-                    <select onchange="document.getElementById('choix_croisiere').innerHTML = document.getElementById(this.value).innerHTML;">
+                    <select>
                         <option value="croisiere_1">Croisière 1 - Titre de la croisière n°1</option>
                         <option value="croisiere_2">Croisière 2 - Titre de la croisière n°2</option>
                         <option value="croisiere_3">Croisière 3 - Titre de la croisière n°3</option>
                     </select>
                 </div>
-                <div class="number_and_date">
-                    <div class="select_nombre">
-                        <label for="nombre_personne">Nombre de personnes:</label>
-                        <select name="nombre_personne" required>
-                            <option value="un">1</option>
-                            <option value="deux">2</option>
-                            <option value="trois">3</option>
-                            <option value="quatre">4</option>
-                            <option value="cinq">5</option>
-                            <option value="6+">6+</option>
-                        </select>
-                    </div>
-                    <div class="calendar">
-                        <label for="date">Date: </label>
-                        <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
-                    </div>
+                <div class="select_nombre">
+                    <label for="nombre_personne">Nombre de personnes:</label>
+                    <select name="nombre_personne" required>
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>
+                        <option value="6+">6+</option>
+                    </select>
+                </div>
+                <div class="calendar">
+                    <label for="date">Date: </label>
+                    <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
                 </div>
             </div>
         </form>

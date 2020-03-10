@@ -1,5 +1,4 @@
-html{
-}
+/* GLOBAL */
 
 body{
     background-color: #E3FDFF;
@@ -29,219 +28,93 @@ p{
     color: #000;
 }
 
+main{
+    display: flex;
+}
+
+/* FORMULAIRE */
+
 .contact_form{
     display: flex;
     justify-content: center;
+    width: 50%;
 }
 
 .align_center{
     display: flex;
-    width: 70%;
     flex-direction: column;
-    align-items: center;
-}
-
-.align_center input{
-    height: 20px;
-    margin: 10px 0;
-    width: 45%;
-    border-radius: 5px;
-    padding: 5px;
+    width: 75%;
+    align-items: flex-start;
 }
 
 .ID_user{
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px 0;
+}
+
+.ID_user input{
+    margin: 5px 0;
+    padding: 5px;
 }
 
 .contact_user{
     display: flex;
-    width: 100%;
-    justify-content: flex-start;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px 0;
 }
+
+.contact_user input{
+    padding: 5px;
+}
+
+/* CHOIX CROISIERE */
 
 .croisiere{
     display: flex;
-    width: 100%;
-    margin: 15px 0;
+    width: 80%;
+    margin: 5px 0;
 }
 
 .croisiere label{
-    width: 30%;
-}
-.croisiere select{
-    width: 70%;
-}
-
-.number_and_date{
-    display: flex ;
-    justify-content: space-between;
     width: 100%;
-    margin: 10px 0;
+    margin: 2px 0;
 }
 
 .select_nombre{
     display: flex;
-    width: 75%;
-}
-
-.select_nombre label{
-    width: 40%;
-}
-
-.select_nombre select{
-    width: 20%;
-    height: 19px;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5px 0;
 }
 
 .calendar{
     display: flex;
-    justify-content: center;
-    width: 25%;
+    justify-content: space-between;
+    width: 80%;
+    margin: 5px 0;
 }
 
-.calendar input{
-    height: 75%;
-    width: 100%;
-    margin: 0;
-    margin-left: 15px;
-    padding: 0;
+/* RESERVATION CROISIERE */
+
+.croisiere{
+    display: flex;
+    flex-direction: column;
 }
 
-.calendar label{
-}
+/* BLOCK PHOTO */
 
 .block_appear{
     display: flex;
-    align-items: center;
-    width: 70.4%;
-    margin: 0 auto;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.choix_croisiere{
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 49%;
-    border: 1px solid;
-    border-radius: 5px;
-    margin: 10px 0;
-    background-color: white;
-}
-
-.choix_croisiere>*{
-    margin: auto 5px;
-    padding: 2px;
-}
-
-.img_croisiere{
-    width: 80%;
+    width: 50%;
 }
 
 .choix_croisiere img{
-    height: 100%;
-    width: 100%;
+    height: 150px;
+    width: 150px;
 }
 
-.description{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    height: 100%;
-    width: 80%;
-    margin: auto 5px;
-}
-
-.description p{
-    margin: 0;
-}
-
-.box{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
-
-.reservation input{
-    background-color: #1966B3;
-    height: 35px;
-    width: 100px;
-    margin-top: 15px;
-    border-radius: 5px;
-}
-
-.reservation input:hover{
-    background-color: #3D9EFF;
-    transition-delay: 0.1s;
-}
-
-/* RESPONSIV */
-
-@media screen and (max-width: 600px){
-    .block_appear{
-        flex-direction: column;
-    }
-
-    .choix_croisiere{
-        flex-direction: row;
-        width: 100%;
-    }
-
-    .croisiere label{
-        width: 50%;
-    }
-
-    .select_nombre{
-        flex-direction: column;
-    }
-
-    .select_nombre label{
-        width: 100%;
-    }
-
-    .select_nombre select{
-        width: 100%;
-    }
-
-    .calendar{
-        flex-direction: column;
-        align-items: center;
-        width: auto;
-    }
-
-    .calendar input{
-        margin: 0;
-        height: 50%;
-        width: 50%;
-    }
-
-    .description{
-        justify-content: center;
-        align-items: center;
-    }
-
-    .description h2{
-        font-size: 3vw;
-    }
-
-    p{
-        display: none;
-    }
-
-    .contact_form{
-        justify-content: center;
-    }
-
-    .ID_user{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .box{
-        width: auto;
-    }
-}
+/* BUTTON */
