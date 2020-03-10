@@ -7,30 +7,32 @@
     <title>My Burdigala</title>
 </head>
 <body>
-    <form action="" method="GET">
-        <div class="ID_user">
-            <label for="GET-name"></label>
-            <input type="text" name="name" id="GET-name" placeholder="Your last-name">
-            <label for="GET-firstname"></label>
-            <input type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
-        </div>
-        <div class="contact_user">
-            <label for="GET-phone"></label>
-            <input type="number" name="phoneNumber" id="GET-phone" placeholder="06XXXXXXXX">
-            <label for="GET_email"></label>
-            <input type="email" name="email" id="GET_email" placeholder="email@email.com">
-        </div>
-        <div class="message">
-            <label for="GET-message"></label>
-            <textarea name="message" id="GET-message" cols="50" rows="10" placeholder="Your message"></textarea>
-        </div>
-        <div class="checkbox">
-            <input type="checkbox" id="capcha" name="no_robot">
-            <label for="capcha">I'm not a FUCKING Russian robot !</label>
-        </div>
-        <div class="button">
-            <input type="button" value="Contact us">
-        </div>
-    </form>
+    <main>
+        <form action="" method="GET">
+            <div class="ID_user">
+                <label for="GET-name"></label>
+                <input type="text" name="name" id="GET-name" placeholder="Your last-name" required>
+                <label for="GET-firstname"></label>
+                <input type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
+            </div>
+            <div class="contact_user">
+                <label for="GET-phone"></label>
+                <input type="number" name="phoneNumber" id="GET-phone" placeholder="06XXXXXXXX">
+                <label for="GET_email"></label>
+                <input type="email" name="email" id="GET_email" placeholder="email@email.com" required>
+            </div>
+            <div class="message">
+                <label for="GET-message"></label>
+                <textarea name="message" id="GET-message" cols="50" rows="10" placeholder="Your message" required></textarea>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="capcha" name="no_robot" required>
+                <label for="capcha">I'm not a FUCKING Russian robot !</label>
+            </div>
+            <div class="button">
+                <input type="button" value="Contact us">
+            </div>
+        </form>
+    </main>
 </body>
 </html>
