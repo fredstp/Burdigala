@@ -1,26 +1,27 @@
 /* HEADER */
 
 /* BODY */
-#conteneur {
-	display: flex;
-	justify-content: center;
-    height: 340px;
-    width: 640px;
-}
-.box{
-
-}
-.box_image {
-	 
+.containerContent {
+    display: flex;
 }
 
+.containerContent_First {
+    width: 30%;
+    justify-content: flex start;
 }
-.box_book {
-    background-color: red;
-    justify-content: right;
-	
+
+.containterContent_middle {
+    width: 60%;
+    justify-cotent: center;
 }
-.box_text {
-	background-color: green;
+
+.containerContent_MiddleTitle {
+    align-content: flex-start;
+}
+
+.containerContent_MiddleText {
+}
+
+.containerContent_ButtonBox {
 }
 /* FOOTER */ 
