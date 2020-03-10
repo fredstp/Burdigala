@@ -117,7 +117,6 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: auto;
     width: 70%;
     border: 1px solid;
     margin: 5px 0;
@@ -127,6 +126,11 @@ p{
 .choix_croisiere>*{
     margin: auto 5px;
     padding: 2px;
+}
+
+.img_croisiere{
+    height: auto;
+    width: 60%;
 }
 
 .choix_croisiere img{
@@ -149,11 +153,17 @@ p{
 
 .box{
     display: flex;
+    width: 10%;
+}
+
+.reservation input{
+    height: 35px;
+    width: 100px;
 }
 
 /* RESPONSIV */
 
-@media screen and (max-width: 930px){
+@media screen and (max-width: 1215px){
 
     .description{
         justify-content: center;
@@ -161,16 +171,35 @@ p{
     }
 
     .description h2{
-        font-size: 3vw;
+        font-size: 1.8vw;
     }
     
     p{
-        display: none;
+        font-size: 1.5vw;
     }
 }
 
 @media screen and (max-width: 790px){
     label{
         font-size: 2.2vw;
+    }
+
+    .description h2{
+        font-size: 3vw;
+    }
+
+    p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ID_user{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box{
+        flex-direction: column;
     }
 }
