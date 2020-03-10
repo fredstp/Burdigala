@@ -103,6 +103,7 @@ p{
     height: 75%;
     width: 100%;
     margin: 0;
+    margin-left: 15px;
     padding: 0;
 }
 
@@ -116,16 +117,60 @@ p{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 250px;
+    height: auto;
     width: 70%;
     border: 1px solid;
     margin: 5px 0;
+    background-color: white;
 }
 
 .choix_croisiere>*{
-    margin: 15px;
+    margin: auto 5px;
+    padding: 2px;
 }
 
-.box_morning{
+.choix_croisiere img{
+    height: 100%;
+    width: 100%;
+}
+
+.description{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 30%;
+    margin: auto 5px;
+}
+
+.description p{
+    margin: 0;
+}
+
+.box{
+    display: flex;
+}
+
+/* RESPONSIV */
+
+@media screen and (max-width: 930px){
+
+    .description{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description h2{
+        font-size: 3vw;
+    }
+    
+    p{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 790px){
+    label{
+        font-size: 2.2vw;
+    }
 }
