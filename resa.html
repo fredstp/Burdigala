@@ -7,68 +7,70 @@
     <title>My Burdigala</title>
 </head>
 <body>
-    <form action="" method="GET">
-        <div class="ID_user">
-            <label for="GET-name"></label>
-            <input type="text" name="name" id="GET-name" placeholder="Your last-name">
-            <label for="GET-firstname"></label>
-            <input type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
-        </div>
-        <div class="contact_user">
-            <label for="GET_email"></label>
-            <input type="email" name="email" id="GET_email" placeholder="email@email.com">
-        </div>
-        <div class="selector">
-            <select name="croisiere">
-                <option value="croisiere_1">Croisière 1</option>
-                <option value="croisiere_2">Croisière 2</option>
-                <option value="croisiere_3">Croisière 3</option>
-            </select>
-            <select name="nombre_personne">
-                <option value="un">1</option>
-                <option value="deux">2</option>
-                <option value="trois">3</option>
-                <option value="quatre">4</option>
-                <option value="cinq">5</option>
-                <option value="6+">6+</option>
-            </select>
-        </div>
-        <div class="calendar">
-            <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31">
-        </div>
-    </form>
-
-    <section class="choix_croisière">
-        <div class="box_morning">
-            <input type="checkbox" name="matin" id="morning">
-            <label for="morning">Matin</label>
-        </div>
-        <div class="img_croisiere">
-            <img src="https://via.placeholder.com/150" alt="Photo de la croisière sur la Garonne">
-        </div>
-        <div>
-            <h2>Croisière "Nom de croisière"</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-    </section>
-    <section class="choix_croisière">
-        <div class="box_evening">
-            <input type="checkbox" name="soir" id="evening">
-            <label for="evening">Soir</label>
-        </div>
-        <div class="img_croisiere">
-            <img src="https://via.placeholder.com/150" alt="Photo de la croisière sur la Garonne">
-        </div>
-        <div>
-            <h2>Croisière "Nom de croisière"</h2>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-    </section>
+    <main>
+        <form action="" method="GET">
+            <div class="ID_user">
+                <label for="GET-name"></label>
+                <input type="text" name="name" id="GET-name" placeholder="Your last-name" required>
+                <label for="GET-firstname"></label>
+                <input type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
+            </div>
+            <div class="contact_user">
+                <label for="GET_email"></label>
+                <input type="email" name="email" id="GET_email" placeholder="email@email.com" required>
+            </div>
+            <div class="selector">
+                <select name="croisiere" required>
+                    <option value="croisiere_1">Croisière 1</option>
+                    <option value="croisiere_2">Croisière 2</option>
+                    <option value="croisiere_3">Croisière 3</option>
+                </select>
+                <select name="nombre_personne" required>
+                    <option value="un">1</option>
+                    <option value="deux">2</option>
+                    <option value="trois">3</option>
+                    <option value="quatre">4</option>
+                    <option value="cinq">5</option>
+                    <option value="6+">6+</option>
+                </select>
+            </div>
+            <div class="calendar">
+                <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
+            </div>
+        </form>
+    
+        <section class="choix_croisière">
+            <div class="box_morning">
+                <input type="checkbox" name="matin" id="morning">
+                <label for="morning">Matin</label>
+            </div>
+            <div class="img_croisiere">
+                <img src="https://via.placeholder.com/150" alt="Photo de la croisière sur la Garonne">
+            </div>
+            <div>
+                <h2>Croisière "Nom de croisière"</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+        <section class="choix_croisière">
+            <div class="box_evening">
+                <input type="checkbox" name="soir" id="evening">
+                <label for="evening">Soir</label>
+            </div>
+            <div class="img_croisiere">
+                <img src="https://via.placeholder.com/150" alt="Photo de la croisière sur la Garonne">
+            </div>
+            <div>
+                <h2>Croisière "Nom de croisière"</h2>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
