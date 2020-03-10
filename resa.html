@@ -42,38 +42,29 @@
                 <div class="calendar">
                     <label for="date">Date: </label>
                     <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
+                    <select name="journey" id="journey" required>
+                        <option value="horaires1">Départ 9h</option>
+                        <option value="horaires1">Départ 11h</option>
+                        <option value="horaires1">Départ 13h</option>
+                        <option value="horaires1">Départ 15h</option>
+                    </select>
+                </div>
+                <div class="reservation">
+                    <input type="button" value="Book !">
                 </div>
             </div>
         </form>
         <section class="block_appear">
             <div class="croisiere_matin">
-                <div class="box">
-                    <input type="radio" name="choice" id="morning" value="matin">
-                    <label for="morning">Matin</label>
-                </div>
-                <div class="img_croisiere">
-                </div>
                 <div class="description">
-                    <h2>Croisière "Nom de croisière"</h2>
+                    <h2>"Titre de croisière"</h2>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
                 </div>
-            </div>
-            <div class="croisiere_aprem">
-                <div class="box">
-                    <input type="radio" name="choice" id="noon" value="aprem">
-                    <label for="noon">Après-midi</label>
-                </div>
                 <div class="img_croisiere">
-                </div>
-                <div class="description">
-                    <h2>Croisière "Nom de croisière"</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
+                    <img src="img/burdigala.png" alt="image d'un beau bateau">
                 </div>
             </div>
         </section>
-        <div class="reservation">
-            <input type="button" value="Book !">
-        </div>
     </main>
 </body>
 </html>
