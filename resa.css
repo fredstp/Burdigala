@@ -71,3 +71,37 @@ p{
 .croisiere select{
     width: 70%;
 }
+
+.number_and_date{
+    display: flex ;
+    justify-content: space-between;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.select_nombre{
+    display: flex;
+    width: 75%;
+}
+
+.select_nombre label{
+    width: 40%;
+}
+
+.select_nombre select{
+    width: 20%;
+    height: 19px;
+}
+
+.calendar{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+}
+
+.calendar input{
+    height: 75%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
