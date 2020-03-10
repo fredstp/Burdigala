@@ -3,43 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resa.css">
     <title>My Burdigala</title>
 </head>
 <body>
     <main>
-        <form action="" method="GET">
-            <div class="ID_user">
-                <label for="GET-name"></label>
-                <input type="text" name="name" id="GET-name" placeholder="Your last-name" required>
-                <label for="GET-firstname"></label>
-                <input type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
-            </div>
-            <div class="contact_user">
-                <label for="GET_email"></label>
-                <input type="email" name="email" id="GET_email" placeholder="email@email.com" required>
-            </div>
-            <div class="selector">
-                <select name="croisiere" required>
-                    <option value="croisiere_1">Croisière 1</option>
-                    <option value="croisiere_2">Croisière 2</option>
-                    <option value="croisiere_3">Croisière 3</option>
-                </select>
-                <select name="nombre_personne" required>
-                    <option value="un">1</option>
-                    <option value="deux">2</option>
-                    <option value="trois">3</option>
-                    <option value="quatre">4</option>
-                    <option value="cinq">5</option>
-                    <option value="6+">6+</option>
-                </select>
-            </div>
-            <div class="calendar">
-                <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
+        <form class="contact_form" action="" method="GET">
+            <div class="align_center">
+                <div class="ID_user">
+                    <label for="GET-name"></label>
+                    <input class="input_ID" type="text" name="name" id="GET-name" placeholder="Your last-name" required>
+                    <label for="GET-firstname"></label>
+                    <input class="input_ID" type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
+                </div>
+                <div class="contact_user">
+                    <label for="GET_email"></label>
+                    <input class="input_mail" type="email" name="email" id="GET_email" placeholder="email@email.com" required>
+                </div>
+                <div class="croisiere">
+                    <label for="croisiere">Choix de la croisiere</label>
+                    <select name="croisiere" required>
+                        <option value="croisiere_1">Croisière 1</option>
+                        <option value="croisiere_2">Croisière 2</option>
+                        <option value="croisiere_3">Croisière 3</option>
+                    </select>
+                </div>
+                <div class="select_nombre">
+                    <label for="nombre_personne">Nombre de personnes</label>
+                    <select name="nombre_personne" required>
+                        <option value="un">1</option>
+                        <option value="deux">2</option>
+                        <option value="trois">3</option>
+                        <option value="quatre">4</option>
+                        <option value="cinq">5</option>
+                        <option value="6+">6+</option>
+                    </select>
+                </div>
+                <div class="calendar">
+                    <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
+                </div>
             </div>
         </form>
     
-        <section class="choix_croisière">
+        <section class="choix_croisiere">
             <div class="box_morning">
                 <input type="checkbox" name="matin" id="morning">
                 <label for="morning">Matin</label>
@@ -55,7 +62,7 @@
                 <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
         </section>
-        <section class="choix_croisière">
+        <section class="choix_croisiere">
             <div class="box_evening">
                 <input type="checkbox" name="soir" id="evening">
                 <label for="evening">Soir</label>
