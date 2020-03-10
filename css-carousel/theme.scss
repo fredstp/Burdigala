@@ -1,29 +1,6 @@
 $color-white: #fff;
 $color-grey: #636363;
 $color-black: #151515;
-$color-blue: #0652dd;
-
-* {
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  font-family: 'Montserrat', 'Arial', sans-serif;
-  font-weight: 500;
-  color: $color-black;
-  background-color: $color-white;
-  margin: 0;
-}
-
-a {
-  text-decoration: none;
-}
 
 // Slider
 .slider {
