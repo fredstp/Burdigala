@@ -11,6 +11,7 @@
     <main>
         <form class="contact_form" action="" method="GET">
             <div class="align_center">
+                <h3>VOS INFORMATIONS</h3>
                 <div class="ID_user">
                     <input class="input_ID" type="text" name="name" id="GET-name" placeholder="Your last-name" required>
                     <input class="input_ID" type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
@@ -18,6 +19,7 @@
                 <div class="contact_user">
                     <input class="input_mail" type="email" name="email" id="GET_email" placeholder="email@email.com" required>
                 </div>
+                <h3>CROISIERE</h3>
                 <div class="croisiere">
                     <label for="croisiere">Choix de la croisiere:</label>
                     <select>
@@ -44,36 +46,34 @@
             </div>
         </form>
         <section class="block_appear">
-            <div class="choix_croisiere">
+            <div class="croisiere_matin">
                 <div class="box">
-                    <input type="checkbox" name="matin" id="morning">
+                    <input type="radio" name="choice" id="morning" value="matin">
                     <label for="morning">Matin</label>
                 </div>
                 <div class="img_croisiere">
-                    <img src="img/burdigala.png" alt="Photo de la croisière sur la Garonne">
                 </div>
                 <div class="description">
                     <h2>Croisière "Nom de croisière"</h2>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
                 </div>
             </div>
-            <div class="choix_croisiere">
+            <div class="croisiere_aprem">
                 <div class="box">
-                    <input type="checkbox" name="noon" id="noon">
+                    <input type="radio" name="choice" id="noon" value="aprem">
                     <label for="noon">Après-midi</label>
                 </div>
                 <div class="img_croisiere">
-                    <img src="img/titanic2.png" alt="Photo de la croisière sur la Garonne">
                 </div>
                 <div class="description">
                     <h2>Croisière "Nom de croisière"</h2>
                     <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
                 </div>
             </div>
-            <div class="reservation">
-                <input type="button" value="Book !">
-            </div>
         </section>
+        <div class="reservation">
+            <input type="button" value="Book !">
+        </div>
     </main>
 </body>
 </html>

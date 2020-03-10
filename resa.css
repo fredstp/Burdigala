@@ -34,16 +34,22 @@ main{
 
 /* FORMULAIRE */
 
+form h3{
+    width: 100%;
+    text-align: left;
+    text-decoration: underline;
+}
+
 .contact_form{
     display: flex;
     justify-content: center;
-    width: 50%;
+    width: 35%;
 }
 
 .align_center{
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 100%;
     align-items: flex-start;
 }
 
@@ -74,6 +80,7 @@ main{
 
 .croisiere{
     display: flex;
+    flex-direction: column;
     width: 80%;
     margin: 5px 0;
 }
@@ -97,24 +104,66 @@ main{
     margin: 5px 0;
 }
 
-/* RESERVATION CROISIERE */
-
-.croisiere{
-    display: flex;
-    flex-direction: column;
-}
-
 /* BLOCK PHOTO */
 
 .block_appear{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
 }
 
-.choix_croisiere img{
-    height: 150px;
-    width: 150px;
+.croisiere_matin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    margin: 5px 0;
+    background-image: url(img/burdigala.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    width: 25%;
+}
+
+.img_croisiere{
+    display: flex;
+    justify-content: center;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.croisiere_aprem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    background-image: url(img/titanic2.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.block_appear img{
+    height: 60%;
+    width: 80%;
 }
 
 /* BUTTON */
+
+.reservation{
+    position: absolute;
+    top: 60%;
+    right: 50%;
+}
