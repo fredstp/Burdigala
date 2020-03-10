@@ -20,7 +20,7 @@
                 </div>
                 <div class="croisiere">
                     <label for="croisiere">Choix de la croisiere:</label>
-                    <select name="croisiere" required>
+                    <select onchange="document.getElementById('choix_croisiere').innerHTML = document.getElementById(this.value).innerHTML;">
                         <option value="croisiere_1">Croisière 1</option>
                         <option value="croisiere_2">Croisière 2</option>
                         <option value="croisiere_3">Croisière 3</option>
@@ -61,8 +61,8 @@
             </div>
             <div class="choix_croisiere">
                 <div class="box">
-                    <input type="checkbox" name="matin" id="morning">
-                    <label for="morning">Après-midi</label>
+                    <input type="checkbox" name="noon" id="noon">
+                    <label for="noon">Après-midi</label>
                 </div>
                 <div class="img_croisiere">
                     <img src="img/titanic2.png" alt="Photo de la croisière sur la Garonne">

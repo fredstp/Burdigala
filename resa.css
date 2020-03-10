@@ -8,19 +8,19 @@ body{
 }
 
 h1{
-    color: #3D9DFF;
+    color: #000;
     font-size: 2rem;
     font-weight: 700;
 }
 
 h2{
-    color: #3D9DFF;
+    color: #000;
     font-size: 1.7rem;
     font-weight: 700;
 }
 
 h3{
-    color: #3D9DFF;
+    color: #000;
     font-size: 1.4rem;
     font-weight: 700;
 }
@@ -47,7 +47,6 @@ p{
     width: 45%;
     border-radius: 5px;
     padding: 5px;
-    filter: drop-shadow(10px 5px 1px grey);
 }
 
 .ID_user{
@@ -70,11 +69,9 @@ p{
 
 .croisiere label{
     width: 30%;
-    text-shadow: 1px 1px 2px grey;
 }
 .croisiere select{
     width: 70%;
-    text-shadow: 1px 1px 2px grey;
 }
 
 .number_and_date{
@@ -91,13 +88,11 @@ p{
 
 .select_nombre label{
     width: 40%;
-    text-shadow: 1px 1px 2px grey;
 }
 
 .select_nombre select{
     width: 20%;
     height: 19px;
-    text-shadow: 1px 1px 2px grey;
 }
 
 .calendar{
@@ -115,13 +110,12 @@ p{
 }
 
 .calendar label{
-    text-shadow: 1px 1px 2px grey;
 }
 
 .block_appear{
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 70.4%;
     margin: 0 auto;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -136,13 +130,11 @@ p{
     border-radius: 5px;
     margin: 10px 0;
     background-color: white;
-    filter: drop-shadow(10px 5px 1px grey);
 }
 
 .choix_croisiere>*{
     margin: auto 5px;
     padding: 2px;
-    text-shadow: 1px 1px 2px grey;
 }
 
 .img_croisiere{
@@ -175,11 +167,16 @@ p{
 }
 
 .reservation input{
+    background-color: #1966B3;
     height: 35px;
     width: 100px;
     margin-top: 15px;
     border-radius: 5px;
-    filter: drop-shadow(10px 5px 1px grey);
+}
+
+.reservation input:hover{
+    background-color: #3D9EFF;
+    transition-delay: 0.2s;
 }
 
 /* RESPONSIV */
