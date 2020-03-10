@@ -45,6 +45,9 @@ p{
     height: 25px;
     margin: 15px 0;
     width: 45%;
+    border-radius: 5px;
+    padding: 5px;
+    filter: drop-shadow(10px 5px 1px grey);
 }
 
 .ID_user{
@@ -67,9 +70,11 @@ p{
 
 .croisiere label{
     width: 30%;
+    text-shadow: 1px 1px 2px grey;
 }
 .croisiere select{
     width: 70%;
+    text-shadow: 1px 1px 2px grey;
 }
 
 .number_and_date{
@@ -86,11 +91,13 @@ p{
 
 .select_nombre label{
     width: 40%;
+    text-shadow: 1px 1px 2px grey;
 }
 
 .select_nombre select{
     width: 20%;
     height: 19px;
+    text-shadow: 1px 1px 2px grey;
 }
 
 .calendar{
@@ -105,6 +112,10 @@ p{
     margin: 0;
     margin-left: 15px;
     padding: 0;
+}
+
+.calendar label{
+    text-shadow: 1px 1px 2px grey;
 }
 
 .block_appear{
@@ -122,13 +133,16 @@ p{
     align-items: center;
     width: 49%;
     border: 1px solid;
-    margin: 5px 0;
+    border-radius: 5px;
+    margin: 15px 0;
     background-color: white;
+    filter: drop-shadow(10px 5px 1px grey);
 }
 
 .choix_croisiere>*{
     margin: auto 5px;
     padding: 2px;
+    text-shadow: 1px 1px 2px grey;
 }
 
 .img_croisiere{
@@ -163,6 +177,9 @@ p{
 .reservation input{
     height: 35px;
     width: 100px;
+    margin-top: 15px;
+    border-radius: 5px;
+    filter: drop-shadow(10px 5px 1px grey);
 }
 
 /* RESPONSIV */
