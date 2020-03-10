@@ -42,8 +42,8 @@ p{
 }
 
 .align_center input{
-    height: 25px;
-    margin: 15px 0;
+    height: 20px;
+    margin: 10px 0;
     width: 45%;
     border-radius: 5px;
     padding: 5px;
@@ -81,7 +81,7 @@ p{
     display: flex ;
     justify-content: space-between;
     width: 100%;
-    margin: 15px 0;
+    margin: 10px 0;
 }
 
 .select_nombre{
@@ -134,7 +134,7 @@ p{
     width: 49%;
     border: 1px solid;
     border-radius: 5px;
-    margin: 15px 0;
+    margin: 10px 0;
     background-color: white;
     filter: drop-shadow(10px 5px 1px grey);
 }
