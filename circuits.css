@@ -1,0 +1,26 @@
+/* HEADER */
+
+/* BODY */
+#conteneur {
+	display: flex;
+	justify-content: center;
+    height: 340px;
+    width: 640px;
+}
+.box{
+
+}
+.box_image {
+	 
+}
+
+}
+.box_book {
+    background-color: red;
+    justify-content: right;
+	
+}
+.box_text {
+	background-color: green;
+}
+/* FOOTER */ 
