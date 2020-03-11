@@ -1,27 +1,30 @@
 /* HEADER */
 
 /* BODY */
-.containerContent {
-    display: flex;
+body {
+    display:flex;
 }
-
-.containerContent_First {
-    width: 30%;
-    justify-content: flex start;
+.containerFluid {
 }
+.containerFluidContent{
 
-.containterContent_middle {
-    width: 60%;
-    justify-cotent: center;
 }
+.containerCard {
 
-.containerContent_MiddleTitle {
-    align-content: flex-start;
 }
+.containerCardCircuit_Pair{
 
-.containerContent_MiddleText {
 }
+.containerCardCircuitImg {
 
-.containerContent_ButtonBox {
+}
+.containerCardCircuitDescription {
+
+}
+.containerCardText {
+
+}
+.containerCardButton {
+
 }
 /* FOOTER */ 
