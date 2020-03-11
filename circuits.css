@@ -2,29 +2,54 @@
 
 /* BODY */
 body {
-    display:flex;
+    margin: 0;
 }
-.containerFluid{
+
+.cont{
+    margin: auto;
     width: 100%;
 }
+
 .container {
+    margin:auto;
     width: 1100px;
 }
 .card_Circuit_Pair {
     display: flex;
+    width: 100%;
 }
+
 .card_Circuit_Pair_img {
-    width: 40%;
+   
+    width: 30%;
 }
-.
+
 .card_Circuit_Pair_Description {
-    width: 60%:
+    
+    width: 60%;
 }
+
 .card_Circuit_Pair_Description_Text {
 
 }
-.
-.card_Circuit_Pair_Description_button {
 
+.card_Circuit_Pair_Description_button {
+    
 }
+.button {
+    color: #fff;
+    background-color: #3C5491;
+    height: 45px;
+    width: 50%;
+    border-radius: 5px 0;
+    box-shadow: 2px 2px 5px #555;
+    position: relative;
+    left: 100%;
+}
+
+img {
+   width: 100%;
+   height: 100%;
+}
+
 /* FOOTER */ 
