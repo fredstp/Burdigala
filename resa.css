@@ -50,7 +50,7 @@ form h3{
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-items: flex-start;
+    align-items: flex-end;
 }
 
 .ID_user{
