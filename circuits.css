@@ -4,27 +4,27 @@
 body {
     display:flex;
 }
-.containerFluid {
+.containerFluid{
+    width: 100%;
 }
-.containerFluidContent{
+.container {
+    width: 1100px;
+}
+.card_Circuit_Pair {
+    display: flex;
+}
+.card_Circuit_Pair_img {
+    width: 40%;
+}
+.
+.card_Circuit_Pair_Description {
+    width: 60%:
+}
+.card_Circuit_Pair_Description_Text {
 
 }
-.containerCard {
-
-}
-.containerCardCircuit_Pair{
-
-}
-.containerCardCircuitImg {
-
-}
-.containerCardCircuitDescription {
-
-}
-.containerCardText {
-
-}
-.containerCardButton {
+.
+.card_Circuit_Pair_Description_button {
 
 }
 /* FOOTER */ 
