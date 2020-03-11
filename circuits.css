@@ -6,6 +6,7 @@ body {
 }
 
 .cont{
+
     margin: auto;
     width: 100%;
 }
@@ -17,26 +18,60 @@ body {
 .card_Circuit_Pair {
     display: flex;
     width: 100%;
+    margin-bottom: 50px;
 }
 
 .card_Circuit_Pair_img {
-   
     width: 30%;
 }
 
 .card_Circuit_Pair_Description {
-    
     width: 60%;
 }
 
 .card_Circuit_Pair_Description_Text {
-
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
 
 .card_Circuit_Pair_Description_button {
+    display: flex;
+    justify-content: flex-end;
     
 }
-.button {
+
+.card_Circuit_Impair {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.card_Circuit_Impair_Description {
+    width: 60%
+}
+
+.card_Circuit_Impair_Description_Text {
+
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card_Circuit_Impair_Description_button {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.card_Circuit_Impair_img {
+    width: 30%;
+}
+
+
+.button_Pair {
     color: #fff;
     background-color: #3C5491;
     height: 45px;
@@ -44,7 +79,16 @@ body {
     border-radius: 5px 0;
     box-shadow: 2px 2px 5px #555;
     position: relative;
-    left: 100%;
+    
+}
+.button_Impair {
+    color: #fff;
+    background-color: #3C5491;
+    height: 45px;
+    width: 50%;
+    border-radius: 5px 0;
+    box-shadow: 2px 2px 5px #555;
+    
 }
 
 img {
