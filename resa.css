@@ -163,8 +163,16 @@ form h3{
 }
 
 .reservation input{
+    color: #fff;
+    background-color:#3D9DFF;
     height: 100%;
     width: 50%;
+    border-radius: 5px 0;
+    box-shadow: 2px 2px 5px #555;
+}
+
+.reservation input:hover{
+    
 }
 
 /* RESPONSIV */
