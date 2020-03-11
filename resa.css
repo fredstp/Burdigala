@@ -182,7 +182,7 @@ form h3{
 
 /* RESPONSIV */
 
-@media screen and (max-width: 700px){
+@media screen and (max-width: 640px){
     main{
         flex-direction: column;
         align-items: center;
