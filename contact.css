@@ -73,6 +73,14 @@ main{
     color: #fff;
 }
 
+.message{
+    width: 85%;
+}
+
+.message textarea{
+    width: 100%;
+}
+
 /* BUTTON */
 
 .button{
@@ -89,4 +97,19 @@ main{
     width: 50%;
     border-radius: 5px 0;
     box-shadow: 2px 2px 5px #555;
+}
+
+/* RESPONSIV */
+
+@media screen and (max-width:900px){
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button{
+        justify-content: center;
+    }
 }
