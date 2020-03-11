@@ -5,29 +5,40 @@ body{
     background-color: #E3FDFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    height: 740px;
     margin: 0;
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/10/20/32/birds-eye-view-2133661_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1{
-    color: #000;
+    color: #fff;
     font-size: 2rem;
     font-weight: 700;
 }
 
 h2{
-    color: #000;
+    color: #fff;
     font-size: 1.7rem;
     font-weight: 700;
 }
 
 h3{
-    color: #000;
+    background-color: grey;
+    border-radius: 5px;
+    color: #fff;
     font-size: 1.4rem;
     font-weight: 700;
+    font-size-adjust: ;
 }
 
 p{
-    color: #000;
+    color: #fff;
+}
+
+label{
+    color: #fff;
 }
 
 main{
@@ -37,12 +48,17 @@ main{
     width: 1100px;
 }
 
+select{
+    background-color: #fff;
+    border-radius: 5px;
+    height: 25px;
+}
+
 /* FORMULAIRE */
 
 form h3{
     font-size: 1.7vw;
     text-align: left;
-    text-decoration: underline;
 }
 
 .contact_form{
@@ -128,13 +144,28 @@ form h3{
 .img_croisiere{
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 75%;
     width: 100%;
 }
 
 .img_croisiere img{
+    position: relative;
+    border: 1px solid;
+    border-color: aqua;
     height: 75%;
     width: 80%;
+}
+
+.promo{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.img_croisiere img:hover{
+    opacity: 0.2;
 }
 
 .description{
@@ -169,11 +200,18 @@ form h3{
 
 .reservation input{
     color: #fff;
-    background-color:#3D9DFF;
-    height: 100%;
+    background-color:#3C5491;
+    height: 45px;
     width: 50%;
     border-radius: 5px 0;
     box-shadow: 2px 2px 5px #555;
+}
+
+.reservation input:hover{
+    color: black;
+    background-color: aqua;
+    border-radius: 5px 0;
+    transform: scale(1.1);
 }
 
 .reservation input:hover{
@@ -181,6 +219,16 @@ form h3{
 }
 
 /* RESPONSIV */
+
+@media screen and (max-width: 915px){
+    .calendar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .calendar>*{
+        margin: 5px 0;
+    }
+}
 
 @media screen and (max-width: 640px){
     main{
@@ -201,14 +249,6 @@ form h3{
         flex-direction: column;
         align-items: center;
         text-align: center;
-    }
-
-    .calendar{
-        flex-direction: column;
-        align-items: center;
-    }
-    .calendar>*{
-        margin: 5px 0;
     }
 
     .reservation{
