@@ -175,6 +175,10 @@ input .submit {
     border-radius: 5px;
 }
 
+footer {
+    background-color: #fff;
+}
+
 @media screen and (max-width: 640px) {
     .portraits {
         flex-direction: column;
