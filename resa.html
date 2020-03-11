@@ -8,66 +8,64 @@
     <title>My Burdigala</title>
 </head>
 <body>
-    <div class="background">
-        <main>
-            <form class="contact_form" method="GET">
-                <div class="align_center">
-                    <h3>vos informations</h3>
-                    <div class="ID_user">
-                        <input class="input_ID" type="text" name="name" id="GET-name" placeholder="Your last-name" required>
-                        <input class="input_ID" type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
-                    </div>
-                    <div class="contact_user">
-                        <input class="input_mail" type="email" name="email" id="GET_email" placeholder="email@email.com" required>
-                    </div>
-                    <h3>croisière</h3>
-                    <div class="croisiere">
-                        <label>Choix de la croisiere:</label>
-                        <select>
-                            <option value="croisiere_1">Croisière 1 - Titre de la croisière n°1</option>
-                            <option value="croisiere_2">Croisière 2 - Titre de la croisière n°2</option>
-                            <option value="croisiere_3">Croisière 3 - Titre de la croisière n°3</option>
-                        </select>
-                    </div>
-                    <div class="select_nombre">
-                        <label>Nombre de personnes:</label>
-                        <select name="nombre_personne" required>
-                            <option value="">1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                            <option>6+</option>
-                        </select>
-                    </div>
-                    <div class="calendar">
-                        <label>Date: </label>
-                        <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
-                        <select name="journey" id="journey" required>
-                            <option value="">Départ 9h</option>
-                            <option>Départ 11h</option>
-                            <option>Départ 13h</option>
-                            <option>Départ 15h</option>
-                        </select>
-                    </div>
-                    <div class="reservation">
-                        <input type="button" value="Book !">
-                    </div>
+    <main>
+        <form class="contact_form" method="GET">
+            <div class="align_center">
+                <h3>vos informations</h3>
+                <div class="ID_user">
+                    <input class="input_ID" type="text" name="name" id="GET-name" placeholder="Your last-name" required>
+                    <input class="input_ID" type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
                 </div>
-            </form>
-            <section class="block_appear">
-                <div class="croisiere_matin">
-                    <div class="description">
-                        <h2>"Titre de croisière"</h2>
-                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
-                    </div>
-                    <div class="img_croisiere">
-                        <img src="img/resort-pool.jpg" alt="image d'un beau bateau">
-                    </div>
+                <div class="contact_user">
+                    <input class="input_mail" type="email" name="email" id="GET_email" placeholder="email@email.com" required>
                 </div>
-            </section>
-        </main>
-    </div>
+                <h3>croisière</h3>
+                <div class="croisiere">
+                    <label>Choix de la croisiere:</label>
+                    <select>
+                        <option value="croisiere_1">Croisière 1 - Titre de la croisière n°1</option>
+                        <option value="croisiere_2">Croisière 2 - Titre de la croisière n°2</option>
+                        <option value="croisiere_3">Croisière 3 - Titre de la croisière n°3</option>
+                    </select>
+                </div>
+                <div class="select_nombre">
+                    <label>Nombre de personnes:</label>
+                    <select name="nombre_personne" required>
+                        <option value="">1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6+</option>
+                    </select>
+                </div>
+                <div class="calendar">
+                    <label>Date: </label>
+                    <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
+                    <select name="journey" id="journey" required>
+                        <option value="">Départ 9h</option>
+                        <option>Départ 11h</option>
+                        <option>Départ 13h</option>
+                        <option>Départ 15h</option>
+                    </select>
+                </div>
+                <div class="reservation">
+                    <input type="button" value="Book !">
+                </div>
+            </div>
+        </form>
+        <section class="block_appear">
+            <div class="croisiere_matin">
+                <div class="description">
+                    <h2>"Titre de croisière"</h2>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis temporibus quisquam fugiat est labore ex doloremque</p>
+                </div>
+                <div class="img_croisiere">
+                    <img src="img/resort-pool.jpg" alt="image d'un beau bateau">
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="container-fluid">
         <div class="container">
             <div class="row footer-up">

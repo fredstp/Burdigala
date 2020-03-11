@@ -141,13 +141,11 @@ form h3{
 .img_croisiere{
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 75%;
     width: 100%;
 }
 
 .img_croisiere img{
-    position: relative;
     border: 1px solid;
     border-color: black;
     height: 75%;
@@ -211,6 +209,7 @@ form h3{
 /* FOOTER */
 
 footer{
+    display: flex;
     background-color: #fff;
 }
 
