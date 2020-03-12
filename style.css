@@ -1,5 +1,9 @@
 /* HEADER */
 
+.bg-header-footer {
+  background: #3D9DFF;
+}
+
 .nav-burger .icon-burger, .icon-close {
   display: none;
 }
@@ -13,12 +17,18 @@ a#open.icon-burger, a#close.icon-close {
   height: 100%;
 }
 
+.container-nav {
+  display: flex;
+  height: 80px;
+  align-items: center;
+}
+
 .nav-burger a {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 1.2rem;
   display: block;
-  color: #000;
+  color: #fff;
 }
 
 #burger-links {
@@ -61,7 +71,7 @@ a#open.icon-burger, a#close.icon-close {
     text-decoration: none;
     font-size: 1.2rem;
     display: block;
-    color: #000;
+    color: #fff;
   }
   
   .nav-burger i {
