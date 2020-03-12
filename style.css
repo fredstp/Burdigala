@@ -1,0 +1,91 @@
+/* HEADER */
+
+.nav-burger .icon-burger, .icon-close {
+  display: none;
+}
+
+a#open.icon-burger, a#close.icon-close {
+  display: none;
+}
+
+.nav-burger {
+  display: flex;
+  height: 100%;
+}
+
+.nav-burger a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: block;
+  color: #000;
+}
+
+#burger-links {
+  display: none;
+}
+
+.nav {
+  display: flex;
+}
+
+#desktop-links {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.menu {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 640px) {
+  .nav-burger #burger-links {
+    display: none;
+  }
+  a#open.icon-burger {
+    display: block;
+  }
+  #desktop-links {
+    display: none;
+  }
+  .nav-burger {
+    flex-direction: column;
+  }
+  .nav-burger #burger-links a {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  .nav-burger a {
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    color: #000;
+  }
+  
+  .nav-burger i {
+    display: block;
+}
+
+  .nav-burger a.icon-burger {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav-burger a.icon-close {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .nav-burger a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
