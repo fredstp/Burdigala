@@ -151,8 +151,17 @@ li {
 
 hr {
     color: #000;
-    width: 50%;
+    width: 100%;
     text-align: center;
+}
+
+.copyright {
+    width: 50%;
+    margin: 16px 0px;
+}
+
+.copyright p {
+    margin: 0px auto 0px 35px;
 }
 
 .newsletter {
@@ -187,6 +196,9 @@ footer {
     .portraits {
         flex-direction: column;
         justify-content: center;
+    }
+    .copyright p {
+        margin: 0px auto;
     }
     .medal {
         width: 100%;
