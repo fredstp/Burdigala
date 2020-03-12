@@ -233,3 +233,41 @@ footer {
     }
 }
 /* FOOTER */    
+@media screen and (max-width: 640px) {
+    .portraits {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .copyright p {
+        margin: 0px auto;
+    }
+    .medal {
+        width: 100%;
+    }
+    .find-us-infos {
+        flex-direction: column;
+    }
+    .find-us-item {
+        width: 100%;
+    }
+    .img-medal {
+        padding-top: 15px;
+    }
+    .footer-up, .footer-links-all {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-down {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-up, .footer-links-all, .footer-links, .footer-partner, .copyright, .newsletter {
+        width: 100%;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    ul {
+        padding: 0px;
+    }
+}
