@@ -1,37 +1,34 @@
 /* GLOBAL */
 
 body{
+    --bg-color: #E3FDFF;
+    --headings: #3D9DFF;
+    --button: #3D9DFF;
+    --button-hover: #037DFB;
     display: flex;
+    flex-direction: column;
     background-color: #E3FDFF;
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     height: 740px;
     margin: 0;
-    background-image: url(https://cdn.pixabay.com/photo/2017/03/10/20/32/birds-eye-view-2133661_960_720.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
-h1{
-    color: #fff;
+h1 , h2, h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
     font-size: 2rem;
-    font-weight: 700;
 }
 
-h2{
-    color: #000;
+h2 {
     font-size: 1.7rem;
-    font-weight: 700;
 }
 
-h3{
-    color: #000;
+h3 {
     font-size: 1.4rem;
-    font-weight: 700;
-}
-
-p{
-    color: #fff;
 }
 
 main{
@@ -39,7 +36,6 @@ main{
     flex-direction: column;
     align-items: center;
     margin: auto;
-    width: 1100px;
 }
 
 /* TITLE */
@@ -72,13 +68,11 @@ main{
 
 .checkbox{
     display: flex;
-    justify-content: flex-end;
     width: 86%;
 }
 
 .checkbox label{
     font-weight: 900;
-    color: #fff;
 }
 
 .message{
@@ -99,28 +93,148 @@ main{
 }
 
 .button input{
+    background: var(--button);
     color: #fff;
-    background-color:#3C5491;
-    height: 45px;
-    width: 50%;
-    border-radius: 5px 0;
-    box-shadow: 2px 2px 5px #555;
+    padding: 10px 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    border: none;
 }
 
 .button input:hover{
-    color: black;
-    background-color: aqua;
-    border-radius: 5px 0;
-    transform: scale(1.1);
+    background: var(--button-hover);
+    box-shadow: 0px 0px 5px 2px #656565;
+    transition-delay: 0.2s;
+    cursor: pointer;
+}
+
+/* FOOTER */
+
+footer{
+    display: flex;
+    background-color: #fff;
+}
+
+.container {
+    width: 1100px;
+    margin: auto;
+}
+
+.container-fluid {
+    width: 100%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+
+footer img {
+    height: 50px;
+}
+
+li {
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.footer-links {
+    width: 40%;
+    padding-top: 20px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer-links a:hover {
+    font-weight: bold;
+}
+
+.footer-links-all {
+    width: 50%;
+}
+
+.footer-partner {
+    width: 50%;
+}
+
+.footer-partner img {
+    padding-right: 10px;
+}
+
+hr {
+    color: #000;
+}
+
+.copyright {
+    width: 50%;
+    text-align: center;
+}
+
+.newsletter {
+    width: 50%;
+    margin: 16px 0px;
+}
+
+input#mail {
+    border-radius: 5px;
+    border: 1px solid #999;
+    padding: 5px 5px;
+}
+
+input .submit {
+    background: var(--button);
+    color: #fff;
+    padding: 5px 5px;
+    border-radius: 5px;
 }
 
 /* RESPONSIV */
 
-@media screen and (max-width:900px){
+@media screen and (max-width:640px){
 
     form{
         display: flex;
         flex-direction: column;
         align-items: center;
+    }
+
+    .portraits {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .medal {
+        width: 100%;
+    }
+    .find-us-infos {
+        flex-direction: column;
+    }
+    .find-us-item {
+        width: 100%;
+    }
+    .img-medal {
+        padding-top: 15px;
+    }
+    .footer-up, .footer-links-all {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-down {
+        flex-direction: column;
+    }
+    .footer-up, .footer-links-all, .footer-links, .footer-partner, .copyright, .newsletter {
+        width: 100%;
+    }
+    .newsletter {
+        text-align: center;
+    }
+    ul {
+        padding: 0px;
     }
 }
