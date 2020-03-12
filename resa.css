@@ -194,6 +194,7 @@ form h3{
     background: var(--button-hover);
     box-shadow: 0px 0px 5px 2px #656565;
     transition-delay: 0.2s;
+    transform: scale(1.2);
     cursor: pointer;
 }
 
