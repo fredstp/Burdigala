@@ -165,11 +165,7 @@ hr {
 
 .copyright {
     width: 50%;
-    margin: 16px 0px;
-}
-
-.copyright p {
-    margin: 0px auto 0px 35px;
+    text-align: center;
 }
 
 .newsletter {
