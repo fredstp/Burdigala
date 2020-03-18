@@ -132,7 +132,6 @@
             </section>
         </div>
     </div>
-
     <?php include ("footer.php"); ?>
     <script src="slider.js"></script>
     <script src="dist/simpleSlider.min.js"></script>
