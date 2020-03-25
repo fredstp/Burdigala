@@ -1,4 +1,5 @@
 <?php 
+echo '<head>';
 echo '<meta charset="UTF-8">';
 echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
 echo '<link rel="stylesheet" href="circuits.css">';
@@ -12,4 +13,5 @@ echo '<script src="slider.js"></script>';
 echo '<script src="dist/simpleSlider.min.js"></script>';
 echo '<script src="burger.js"></script>';
 echo '<title>My Burdigala</title>';
+echo '</head>';
 ?>

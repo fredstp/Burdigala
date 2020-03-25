@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
 <?php include("head.php"); ?>
-</head>
 <body>
     <?php include("header.php"); ?>
     <div class="cont">
@@ -20,7 +18,6 @@
                         <a href="resa.html">
                         <button class="button"  type="button"> Réserver </button></a>
                     </div>
-
                 </div>
             </div>
         </div>

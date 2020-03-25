@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="fr">
 <?php include("head.php"); ?>
-</head>
 <body>
 <?php include("header.php"); ?>
     <main>
