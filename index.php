@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="dist/simpleSlider.min.css">
-    <link rel="stylesheet" href="css-carousel/theme.min.css">
-    <script src="slider.js"></script>
-    <script src="dist/simpleSlider.min.js"></script>
-    <script src="burger.js"></script>
-   
-    <title>My Burdigala</title>
+<?php include("head.php"); ?>
 </head>
 <body>
     <?php include("header.php"); ?>
@@ -23,30 +11,10 @@
             <!-- Slider -->
             <div class="simple-slider page-slider">
                 <div class="slider-wrapper">
-                <?php 
-                    $slides = [
-                        [
-                            'title' => 'Burdigala',
-                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
-                        ],
-                        [
-                            'title' => 'BurdigalaII',
-                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
-                        ],
-                        [
-                            'title' => 'Titanic II',
-                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
-                        ],
-                        [
-                            'title' => 'Aquitania',
-                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
-                        ],
-                    ]
-
-                ?>
+                
                 <!-- First slide -->
                 <div class="slider-slide burdigala">
-                    <h2 class="slider-title">Burdigala</h2>
+                    <h2 class="slider-title">Burgigala</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
                         <a href="resa.html" title="Réserver cette croisière">Réserver</a>
