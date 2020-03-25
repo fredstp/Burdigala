@@ -23,9 +23,19 @@
             <!-- Slider -->
             <div class="simple-slider page-slider">
                 <div class="slider-wrapper">
+                <?php 
+                    $slides = [
+                        [
+                            'title' => 'Burdigala',
+                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
+                        ],
+                        
+                    ]
+
+                ?>
                 <!-- First slide -->
                 <div class="slider-slide burdigala">
-                    <h2 class="slider-title">Burgigala</h2>
+                    <h2 class="slider-title">Burdigala</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
                         <a href="resa.html" title="Réserver cette croisière">Réserver</a>
