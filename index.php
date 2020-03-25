@@ -29,7 +29,18 @@
                             'title' => 'Burdigala',
                             'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
                         ],
-                        
+                        [
+                            'title' => 'BurdigalaII',
+                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
+                        ],
+                        [
+                            'title' => 'Titanic II',
+                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
+                        ],
+                        [
+                            'title' => 'Aquitania',
+                            'description' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. ',                   
+                        ],
                     ]
 
                 ?>
