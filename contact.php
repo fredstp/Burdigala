@@ -1,8 +1,6 @@
-<!DOCTYPE html>
-<html lang="fr">
-<?php include("head.php"); ?>
+<?php include_once ("head.php"); ?>
 <body>
-<?php include("header.php"); ?>
+<?php include_once ("header.php"); ?>
     <main>
         <h1>Nous contacter</h1>
         <form action="" method="GET">
@@ -26,6 +24,6 @@
             </div>
         </form>
     </main>
-    <?php include ("footer.php"); ?>
+    <?php include_once ("footer.php"); ?>
 </body>
 </html>

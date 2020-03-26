@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-<html lang="fr">
-<?php include("head.php"); ?>
+
+<?php include_once ("head.php"); ?>
 <body>
-    <?php include("header.php"); ?>
-    <?php include ("cards.php"); ?>
-    <?php include ("footer.php"); ?>
+<?php
+    include_once ("header.php");
+    include_once ("cards.php"); 
+    include_once ("footer.php"); 
+?>
 </body>
 </html>

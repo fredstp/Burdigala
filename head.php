@@ -1,17 +1,19 @@
-<?php 
-echo '<head>';
-echo '<meta charset="UTF-8">';
-echo '<meta name="viewport" content="width=device-width, initial-scale=1.0">';
-echo '<link rel="stylesheet" href="circuits.css">';
-echo '<link rel="stylesheet" href="index.css">';
-echo '<link rel="stylesheet" href="style.css">';
-echo '<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">';
-echo '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">';
-echo '<link rel="stylesheet" href="dist/simpleSlider.min.css">';
-echo '<link rel="stylesheet" href="css-carousel/theme.min.css">';
-echo '<script src="slider.js"></script>';
-echo '<script src="dist/simpleSlider.min.js"></script>';
-echo '<script src="burger.js"></script>';
-echo '<title>My Burdigala</title>';
-echo '</head>';
-?>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="circuits.css">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="resa.css">
+<link rel="stylesheet" href="contact.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="dist/simpleSlider.min.css">
+<link rel="stylesheet" href="css-carousel/theme.min.css">
+<script src="slider.js"></script>
+<script src="dist/simpleSlider.min.js"></script>
+<script src="burger.js"></script>
+<title>My Burdigala</title>
+</head>

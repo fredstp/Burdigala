@@ -19,25 +19,26 @@ $cards = [
    
 
         ];
-
-foreach ($cards as $card) {
-     echo '<div class="cont">';
-     echo   '<div class="container">';
-     echo       '<div class="card_Circuit_Pair">';
-     echo           '<div class="card_Circuit_Pair_img">';
-     echo               '<img class="boat" src="./img/'. $card['image'] . '" alt="' . $card['title'] . '">';
-     echo           '</div>';
-     echo           '<div class="card_Circuit_Pair_Description">';
-     echo               '<div class="card_Circuit_Pair_Description_Text">';
-     echo                 '<h2>' . $card['title'] . '</h2>';
-     echo                   '<p>' . $card['description'] . '</p>';
-     echo                '</div>';
-     echo                '<div class="card_Circuit_Pair_Description_button">';
-     echo                   '<a href="resa.html">';
-     echo                  '<button class="button"  type="button"> Réserver </button></a>';
-     echo                '</div>';
-     echo     '</div>';
-     echo  '</div>';
-};
-
 ?>
+
+<?php foreach ($cards as $card) : ?>
+    <div class="cont">
+        <div class="container">
+            <div class="card_Circuit_Pair">
+                <div class="card_Circuit_Pair_img">
+                    <img class="boat" src="./img/<?=$card['image'] ?>" alt="<?=$card['title'] ?>">
+                </div>
+                    <div class="card_Circuit_Pair_Description">
+                        <div class="card_Circuit_Pair_Description_Text">
+                            <h2><?=$card['title'] ?></h2>
+                            <p><?=$card['description']?></p>
+                        </div>
+                        <div class="card_Circuit_Pair_Description_button">
+                            <a href="resa.php">
+                            <button class="button"  type="button"> Réserver </button></a>
+                        </div>   
+                    </div>       
+            </div>  
+        </div>
+    </div>
+<?php endforeach ?>
