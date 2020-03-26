@@ -7,15 +7,15 @@
                             <ul>
                                 <li><a href="#">Plan du site</a></li>
                                 <li><a href="#">Accueil</a></li>
-                                <li><a href="circuits.html">Circuits</a></li>
+                                <li><a href="circuits.php">Circuits</a></li>
                             </ul>
                         </div>
                     </div>
                     <div class="footer-links">
                         <div>
                             <ul>
-                                <li><a href="reservation.html">Réservation</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="reservation.php">Réservation</a></li>
+                                <li><a href="contact.php">Contact</a></li>
                                 <li><a href="#">Mentions légales</a></li>
                             </ul>
                         </div>
