@@ -13,7 +13,7 @@
                     <h2 class="slider-title">Burgigala</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
-                        <a href="resa.html" title="Réserver cette croisière">Réserver</a>
+                        <a href="resa.php" title="Réserver cette croisière">Réserver</a>
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@
                     <h2 class="slider-title">Burdigala II</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
-                        <a href="resa.html" title="Réserver cette croisière">Réserver</a>
+                        <a href="resa.php" title="Réserver cette croisière">Réserver</a>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@
                     <h2 class="slider-title">Titanic II</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
-                        <a href="resa.html" title="Réserver cette croisière">Réserver</a>
+                        <a href="resa.php" title="Réserver cette croisière">Réserver</a>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@
                     <h2 class="slider-title">Aquitania</h2>
                     <p class="slider-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam consequat feugiat suscipit. </p>
                     <div class="button-action">
-                        <a href="resa.html" title="Réserver cette croisière">Réserver</a>
+                        <a href="resa.php" title="Réserver cette croisière">Réserver</a>
                     </div>
                 </div>
                 </div>
@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="button-action">
-                        <a href="contact.html" title="Contactez nous">Nous contacter</a>
+                        <a href="contact.php" title="Contactez nous">Nous contacter</a>
                     </div>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.04158910111!2d-0.5652332486576435!3d44.841086382721464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5527d4c0882c9d%3A0x20893706f0a156a!2sCroisi%C3%A8res%20Burdigala!5e0!3m2!1sfr!2sfr!4v1583834914915!5m2!1sfr!2sfr" class="maps" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
                 </div>
@@ -119,6 +119,6 @@
     </div>
     <?php include ("footer.php"); ?>
     <script src="slider.js"></script>
-    <script src="dist/simpleSlider.min.js"></script>
+    <script src="dist/simpleSlider.min.js"></script>    
 </body>
 </html>
