@@ -16,7 +16,7 @@
                 <textarea name="contactMessage" id="message" cols="50" rows="10" placeholder="Your message" required></textarea>
             </div>
             <div class="checkbox">
-                <input type="checkbox" id="capcha" name="no_robot" required>
+                <input type="checkbox" id="capcha" name="noRobot" required>
                 <label for="capcha">I'm not a Russian robot !</label>
             </div>
             <div class="button">

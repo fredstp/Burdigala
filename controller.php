@@ -1,10 +1,11 @@
 <?php
 if ($_POST) {
-    $name      = $_POST['ContactName'];
+    $name      = $_POST['contactName'];
     $firstname = $_POST['contactFirstname'];
     $phone     = $_POST['contactPhone'];
     $email     = $_POST['contactEmail'];
     $message   = $_POST['contactMessage'];
+    $checkbox   = $_POST['noRobot'];
     $errors    = [];
 
     if (empty($name)) {
@@ -23,8 +24,16 @@ if ($_POST) {
             $errors[] = ' Une adresse email est requise ';
     }
     if (empty($message)) {
-            $errors[] = ' Un message un requis '
+            $errors[] = ' Un message un requis ';
     }
-
+    if (empty($checkbox)) {
+    $errors[] = ' checkbox invalide ';
 }
-var_dump($_POST);
+   if(count($errors) === 0) {
+       header('location: contact.php');
+    } else {
+        foreach ($errors as $error) {
+            echo $error . '<br>';
+        }
+      }
+}
