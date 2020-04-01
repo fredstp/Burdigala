@@ -3,7 +3,7 @@
 <?php include_once ("header.php"); ?>
     <main>
         <h1>Nous contacter</h1>
-        <form action="success.php" method="POST">
+        <form action="controller.php" method="POST">
             <div class="ID_user">
                 <input type="text" name="name" id="name" placeholder="Your last-name" required>
                 <input type="text" name="firstName" id="firstname" placeholder="Your first-name">

@@ -5,20 +5,20 @@
 <?php include("header.php"); ?>
     <div class="container">
         <main>
-            <form class="contact_form" method="GET">
+            <form class="contact_form" method="POST">
                 <div class="align_center">
                     <h3>Vos informations</h3>
                     <div class="ID_user">
-                        <input class="input_ID" type="text" name="name" id="GET-name" placeholder="Your last-name" required>
-                        <input class="input_ID" type="text" name="firstName" id="GET-firstname" placeholder="Your first-name">
+                        <input class="input_ID" type="text" name="userName" id="GET-name" placeholder="Your last-name" required>
+                        <input class="input_ID" type="text" name="userFirstName" id="GET-firstname" placeholder="Your first-name">
                     </div>
                     <div class="contact_user">
-                        <input class="input_mail" type="email" name="email" id="GET_email" placeholder="email@email.com" required>
+                        <input class="input_mail" type="email" name="userEmail" id="GET_email" placeholder="email@email.com" required>
                     </div>
                     <h3>Croisière</h3>
                     <div class="croisiere">
                         <label>Choix de la croisiere:</label>
-                        <select>
+                        <select name="croisiereChoice">
                             <option value="croisiere_1">Bordeaux - Royan</option>
                             <option value="croisiere_2">Bordeaux - Blaye</option>
                             <option value="croisiere_3">Transatlantique</option>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="select_nombre">
                         <label>Nombre de personnes:</label>
-                        <select name="nombre_personne" required>
+                        <select name="numberPassenger" required>
                             <option value="">1</option>
                             <option>2</option>
                             <option>3</option>
@@ -37,8 +37,8 @@
                     </div>
                     <div class="calendar">
                         <label>Date: </label>
-                        <input type="date" name="date_resa" min="2019-01-01" max="2025-12-31" required>
-                        <select name="journey" id="journey" required>
+                        <input type="date" name="reservationDate" min="2019-01-01" max="2025-12-31" required>
+                        <select name="reservationJourney" id="journey" required>
                             <option value="">Départ 9h</option>
                             <option>Départ 11h</option>
                             <option>Départ 13h</option>
