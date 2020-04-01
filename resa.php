@@ -5,7 +5,7 @@
 <?php include("header.php"); ?>
     <div class="container">
         <main>
-            <form class="contact_form" method="POST">
+            <form class="contact_form" action="" method="POST">
                 <div class="align_center">
                     <h3>Vos informations</h3>
                     <div class="ID_user">
