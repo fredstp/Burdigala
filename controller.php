@@ -1,8 +1,5 @@
 <?php
 
-require_once('connec.php');
-$pdo = new \PDO(DSN, USER, PASS);
-
 if ($_POST) {
     $name      = $_POST['contactName'];
     $firstname = $_POST['contactFirstname'];
@@ -34,6 +31,16 @@ if ($_POST) {
     $errors[] = ' checkbox invalide ';
 }
    if(count($errors) === 0) {
+       require_once('connec.php');
+       $pdo = new \PDO(DSN, USER, PASS);
+       $query = 'INSERT INTO users (name, firstname, phone, email, message) VALUES (:name, :firstname, :phone, :email, :message)';
+       $statement = $pdo->prepare($query);
+       $statement ->bindValue(':name' , $name, PDO::PARAM_STR);
+       $statement ->bindValue(':firstname' , $firstname, PDO::PARAM_STR);
+       $statement ->bindValue(':phone' , $phone, PDO::PARAM_STR);
+       $statement ->bindValue(':email' , $email, PDO::PARAM_STR);
+       $statement ->bindValue(':message' , $message, PDO::PARAM_STR);
+       $statement ->execute();
 
        header('location: contact.php');
     } else {
