@@ -1,4 +1,8 @@
 <?php
+
+require_once('connec.php');
+$pdo = new \PDO(DSN, USER, PASS);
+
 if ($_POST) {
     $name      = $_POST['contactName'];
     $firstname = $_POST['contactFirstname'];
@@ -30,6 +34,7 @@ if ($_POST) {
     $errors[] = ' checkbox invalide ';
 }
    if(count($errors) === 0) {
+
        header('location: contact.php');
     } else {
         foreach ($errors as $error) {
